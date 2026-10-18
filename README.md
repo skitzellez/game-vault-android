@@ -30,7 +30,7 @@
 <p align="center">
   <img src="art/screens/library.jpg" alt="The Game Vault library: a shelf of box art" width="30%">
   &nbsp;
-  <img src="art/screens/details.jpg" alt="A game's page with the Play button" width="30%">
+  <img src="art/screens/details.jpg" alt="A game's page: one tap installs its emulator" width="30%">
   &nbsp;
   <img src="art/screens/system.jpg" alt="One system's shelf" width="30%">
 </p>
@@ -66,8 +66,10 @@ From the maker of **[Game Vault for Xbox](https://github.com/skitzellez/xbox-gam
   2 or PSP, Saturn, Dreamcast, original Xbox), not just by their names. Track lists (`.cue`, `.gdi`) and disc playlists (`.m3u`) stay
   one game.
 - **Real names and box art** for your whole library.
-- **The right emulator for every system**, with a **Get** button when one is missing and a one-line tip the first
-  time you use it.
+- **Nothing to set up:** tap a game and, if its emulator is missing, tap **Install**. Game Vault downloads it,
+  Android asks once, and the game starts. **RetroArch for Game Vault** comes with every core inside, so there is
+  nothing to download inside RetroArch.
+- **Updates in one tap:** a banner shows when Game Vault or RetroArch for Game Vault has a new version; tap it to install.
 - **Made for touch and for controllers:** phones, tablets, Android TV, and controllers such as Backbone,
   Razer Kishi or any Bluetooth pad.
 - **Recently played**, search, one shelf per system.
@@ -77,24 +79,24 @@ From the maker of **[Game Vault for Xbox](https://github.com/skitzellez/xbox-gam
 
 | Systems | Plays in |
 |---|---|
-| NES, Super Nintendo, Game Boy, Game Boy Color, Game Boy Advance, Nintendo DS, Nintendo 64, Virtual Boy | RetroArch |
-| Genesis / Mega Drive, Master System, Game Gear, Sega 32X, Sega CD, Saturn | RetroArch |
-| PlayStation, PC Engine / TurboGrafx-16, Neo Geo Pocket, WonderSwan, arcade (FinalBurn Neo) | RetroArch |
-| Atari 2600, 5200, 7800, Lynx, Jaguar, ST, ColecoVision, Intellivision, Vectrex, MSX, Commodore 64, Amiga, ZX Spectrum, DOS and more | RetroArch |
-| GameCube, Wii | [Dolphin](https://dolphin-emu.org/download/) |
-| PSP | [PPSSPP](https://www.ppsspp.org/download/) |
-| PlayStation 2 | [NetherSX2](https://github.com/Trixarian/NetherSX2-patch/releases) or [ARMSX2](https://github.com/ARMSX2/ARMSX2/releases) |
-| Dreamcast, Atomiswave, NAOMI | [Flycast](https://github.com/flyinghead/flycast/releases) |
-| Nintendo 3DS | [Azahar](https://azahar-emu.org/pages/download/) |
-| Original Xbox | [X1 BOX](https://github.com/izzy2lost/xemu/releases) |
+| NES, Super Nintendo, Game Boy, Game Boy Color, Game Boy Advance, Nintendo DS, Nintendo 64, Virtual Boy, Pokémon Mini | RetroArch for Game Vault |
+| Genesis / Mega Drive, Master System, Game Gear, Sega 32X, Sega CD, Saturn, Dreamcast, Atomiswave, NAOMI | RetroArch for Game Vault |
+| PlayStation, PSP, PlayStation 2, GameCube, Wii, Nintendo 3DS | RetroArch for Game Vault |
+| PC Engine / TurboGrafx-16, Neo Geo Pocket, WonderSwan, arcade (FinalBurn Neo) | RetroArch for Game Vault |
+| Atari 2600, 5200, 7800, Lynx, Jaguar, ST, ColecoVision, Intellivision, Vectrex, MSX, Commodore 64, Amiga, ZX Spectrum, DOS and more | RetroArch for Game Vault |
+| Original Xbox | [X1 BOX](https://github.com/izzy2lost/xemu/releases) (installed with one tap; asks for your own Xbox files once) |
 
-[RetroArch](https://www.retroarch.com/?page=platforms) plays most systems. When a standalone emulator for a system
-is installed, Game Vault uses it instead.
+**[RetroArch for Game Vault](https://github.com/skitzellez/RetroArch-GameVault)** is installed by Game Vault with one
+tap and has every core built in. If you already use a standalone emulator ([Dolphin](https://dolphin-emu.org/download/),
+[PPSSPP](https://www.ppsspp.org/download/), [NetherSX2](https://github.com/Trixarian/NetherSX2-patch/releases),
+[ARMSX2](https://github.com/ARMSX2/ARMSX2/releases), [DuckStation](https://www.duckstation.org/),
+[Flycast](https://github.com/flyinghead/flycast/releases), [Azahar](https://azahar-emu.org/pages/download/),
+[melonDS](https://github.com/rafaelvcaetano/melonDS-android/releases)), Game Vault uses it instead.
 
 ## 📋 Requirements
 
 - Android 8 or newer (phone, tablet or Android TV).
-- The emulators for the systems you play (all free; Game Vault links to each one).
+- Nothing else: Game Vault installs the emulators it needs (all free) with one tap.
 - For the big systems (GameCube, PlayStation 2, Xbox, 3DS): a recent, fast phone.
 
 ## 🚀 Installation
@@ -103,11 +105,12 @@ is installed, Game Vault uses it instead.
    download **`GameVault-Android_x.y.z.apk`**.
 2. Open the downloaded file. The first time, Android asks to allow installing apps from your browser: allow it.
 3. Start **Game Vault** and tap **Allow access to my games**, then turn on the switch Android shows.
-4. Your games appear. Tap one, then **Play**. If its emulator is missing, tap **Get** first.
+4. Your games appear. Tap one, then **Play**. If its emulator is missing, tap **Install**: Android asks once to allow
+   installs from Game Vault and once to install, then your game starts.
 
-**First time with an emulator:** the game's page says the one thing it needs, for example downloading a RetroArch
-core (*Main Menu › Online Updater › Core Downloader*) or adding your games folder in Dolphin, PPSSPP or NetherSX2.
-That is needed once per emulator.
+**The very first game** in RetroArch for Game Vault asks once for file access (so it can open your games). That is all.
+PlayStation 2 and Sega CD games need your own BIOS file in the phone's `GameVault/bios` folder; most other systems
+need none.
 
 ## 🎮 Controls
 
@@ -135,7 +138,8 @@ Game Vault only **reads** your games; nothing is ever uploaded. It goes online f
 
 - box art from `thumbnails.libretro.com` and `art.gametdb.com` (the game's name or disc ID is in the address),
 - the newest version number from this project's update file on GitHub,
-- links you tap yourself (emulator downloads, Discord).
+- the emulator or update you tap **Install** for, from its project's GitHub releases,
+- links you tap yourself (Discord).
 
 No accounts, no ads, no tracking.
 
@@ -152,8 +156,9 @@ you can support it on **[Patreon](https://www.patreon.com/Skitzelles)**. ❤️
 
 - Created by **[Skitzelles](https://github.com/skitzellez)**. The code was written with an AI assistant
   (Claude) working with the project owner.
-- The emulators above and their authors: RetroArch and the libretro cores, Dolphin, PPSSPP, NetherSX2 / AetherSX2,
-  ARMSX2, Flycast, Azahar, X1 BOX.
+- The emulators above and their authors: RetroArch and the libretro cores (the full list with licences and sources is in
+  [CORES.md](https://github.com/skitzellez/RetroArch-GameVault/blob/gamevault/pkg/android/phoenix/gamevault/CORES.md)),
+  Dolphin, PPSSPP, NetherSX2 / AetherSX2, ARMSX2, DuckStation, Flycast, Azahar, melonDS, X1 BOX.
 - How each emulator is handed a game follows the lists published by [ES-DE](https://es-de.org) (MIT).
 - Title data from GameTDB, box art from the libretro thumbnail server and GameTDB.
 
