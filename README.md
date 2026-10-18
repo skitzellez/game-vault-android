@@ -69,7 +69,8 @@ From the maker of **[Game Vault for Xbox](https://github.com/skitzellez/xbox-gam
 - **Nothing to set up:** tap a game and, if its emulator is missing, tap **Install**. Game Vault downloads it,
   Android asks once, and the game starts. **RetroArch for Game Vault** comes with every core inside, so there is
   nothing to download inside RetroArch.
-- **Updates in one tap:** a banner shows when Game Vault or RetroArch for Game Vault has a new version; tap it to install.
+- **Original Xbox with nothing to set up:** **X1 BOX for Game Vault** has a free Xbox BIOS and a blank hard disk built in.
+- **Updates in one tap:** a banner shows when Game Vault, RetroArch for Game Vault or X1 BOX for Game Vault has a new version; tap it to install.
 - **Made for touch and for controllers:** phones, tablets, Android TV, and controllers such as Backbone,
   Razer Kishi or any Bluetooth pad.
 - **Recently played**, search, one shelf per system.
@@ -84,14 +85,14 @@ From the maker of **[Game Vault for Xbox](https://github.com/skitzellez/xbox-gam
 | PlayStation, PSP, PlayStation 2, GameCube, Wii, Nintendo 3DS | RetroArch for Game Vault |
 | PC Engine / TurboGrafx-16, Neo Geo Pocket, WonderSwan, arcade (FinalBurn Neo) | RetroArch for Game Vault |
 | Atari 2600, 5200, 7800, Lynx, Jaguar, ST, ColecoVision, Intellivision, Vectrex, MSX, Commodore 64, Amiga, ZX Spectrum, DOS and more | RetroArch for Game Vault |
-| Original Xbox | [X1 BOX](https://github.com/izzy2lost/xemu/releases) (installed with one tap; asks for your own Xbox files once) |
+| Original Xbox | [X1 BOX for Game Vault](https://github.com/skitzellez/x1box-gamevault) (installed with one tap; free BIOS built in, nothing to set up) |
 
 **[RetroArch for Game Vault](https://github.com/skitzellez/RetroArch-GameVault)** is installed by Game Vault with one
 tap and has every core built in. If you already use a standalone emulator ([Dolphin](https://dolphin-emu.org/download/),
 [PPSSPP](https://www.ppsspp.org/download/), [NetherSX2](https://github.com/Trixarian/NetherSX2-patch/releases),
 [ARMSX2](https://github.com/ARMSX2/ARMSX2/releases), [DuckStation](https://www.duckstation.org/),
 [Flycast](https://github.com/flyinghead/flycast/releases), [Azahar](https://azahar-emu.org/pages/download/),
-[melonDS](https://github.com/rafaelvcaetano/melonDS-android/releases)), Game Vault uses it instead.
+[melonDS](https://github.com/rafaelvcaetano/melonDS-android/releases), X1 BOX), Game Vault uses it instead.
 
 ## 📋 Requirements
 
@@ -146,6 +147,7 @@ No accounts, no ads, no tracking.
 ## 🔗 Related projects
 
 - [Game Vault for Xbox](https://github.com/skitzellez/xbox-game-vault): the original, for Xbox Series X|S in Dev Mode.
+- [X1 BOX for Game Vault](https://github.com/skitzellez/x1box-gamevault): original Xbox games on Android, nothing to set up.
 
 ## ❤️ Support the project
 
@@ -158,7 +160,8 @@ you can support it on **[Patreon](https://www.patreon.com/Skitzelles)**. ❤️
   (Claude) working with the project owner.
 - The emulators above and their authors: RetroArch and the libretro cores (the full list with licences and sources is in
   [CORES.md](https://github.com/skitzellez/RetroArch-GameVault/blob/gamevault/pkg/android/phoenix/gamevault/CORES.md)),
-  Dolphin, PPSSPP, NetherSX2 / AetherSX2, ARMSX2, DuckStation, Flycast, Azahar, melonDS, X1 BOX.
+  Dolphin, PPSSPP, NetherSX2 / AetherSX2, ARMSX2, DuckStation, Flycast, Azahar, melonDS, X1 BOX (izzy2lost) and
+  [X1 BOX for Game Vault](https://github.com/skitzellez/x1box-gamevault) with the free [SpiritBoot](https://github.com/Mainkill1/SpiritBoot) BIOS.
 - How each emulator is handed a game follows the lists published by [ES-DE](https://es-de.org) (MIT).
 - Title data from GameTDB, box art from the libretro thumbnail server and GameTDB.
 
