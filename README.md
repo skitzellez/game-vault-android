@@ -1,44 +1,163 @@
-# Game Vault for Android (beta)
+<p align="center">
+  <img src="art/logo-banner.png" alt="Game Vault" width="720">
+</p>
 
-Your games, one shelf. Game Vault finds the games on your phone, its SD card and any USB drive you plug in,
-gets their names and box art, and starts each one in the right emulator.
+<h3 align="center">Every game. One vault. Now in your pocket.</h3>
 
-From the maker of [Game Vault for Xbox](https://github.com/skitzellez/xbox-game-vault).
+<p align="center">
+  <b>Put games on your phone, pick one, play.</b><br>
+  The all-in-one game library for <b>Android</b>: phones, tablets and Android TV. Atari to PlayStation 2,
+  GameCube, Wii and the original Xbox, with touch or a controller.
+</p>
 
-> **Beta.** This is the first Android version. Tell us what works and what does not:
-> Options › *Send a problem report*, or the [Game Vault Discord](https://discord.gg/RmhhWgguvw).
+<p align="center">
+  <a href="https://github.com/skitzellez/game-vault-android/releases/latest"><img alt="Download Game Vault for Android" src="https://img.shields.io/badge/DOWNLOAD-Game%20Vault%20for%20Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"></a>
+  &nbsp;
+  <a href="#-installation"><img alt="How to install" src="https://img.shields.io/badge/HOW%20TO-INSTALL-0B7DDA?style=for-the-badge"></a>
+  &nbsp;
+  <a href="https://www.patreon.com/Skitzelles"><img alt="Support on Patreon" src="https://img.shields.io/badge/SUPPORT-Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"></a>
+</p>
 
-## Get it
+<p align="center">
+  <a href="https://github.com/skitzellez/game-vault-android/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/skitzellez/game-vault-android?label=latest&color=3DDC84"></a>
+  <a href="https://github.com/skitzellez/game-vault-android/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/skitzellez/game-vault-android/total?color=40BFFF"></a>
+  <a href="https://github.com/skitzellez/game-vault-android/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/skitzellez/game-vault-android?color=F5C518&logo=github"></a>
+  <a href="https://discord.gg/RmhhWgguvw"><img alt="Discord" src="https://img.shields.io/badge/chat-Discord-5865F2?logo=discord&logoColor=white"></a>
+  <a href="LICENSE"><img alt="License: PolyForm Noncommercial" src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-blue"></a>
+  <img alt="Status: beta" src="https://img.shields.io/badge/status-beta-orange">
+</p>
 
-1. Download **GameVault-Android_x.y.z.apk** from the [latest release](https://github.com/skitzellez/game-vault-android/releases/latest) on your phone.
-2. Open it. Android asks once to allow installing apps from your browser; say yes.
-3. Start Game Vault and tap **Allow access to my games**. Games can be in any folder.
+<p align="center">
+  <img src="art/screens/library.jpg" alt="The Game Vault library: a shelf of box art" width="30%">
+  &nbsp;
+  <img src="art/screens/details.jpg" alt="A game's page with the Play button" width="30%">
+  &nbsp;
+  <img src="art/screens/system.jpg" alt="One system's shelf" width="30%">
+</p>
 
-Android 8 or newer. Phones, tablets and Android TV boxes; touch or a controller.
+<table align="center">
+  <tr>
+    <td align="center" width="33%"><h3>📱 1. Put games on</h3>The phone, an SD card or a USB drive. Any folders, any names, zipped or not.</td>
+    <td align="center" width="33%"><h3>🎯 2. Pick</h3>Names and box art fill in by themselves.</td>
+    <td align="center" width="33%"><h3>▶️ 3. Play</h3>Tap Play. The right emulator starts with your game.</td>
+  </tr>
+</table>
 
-## Emulators
+---
 
-Game Vault starts your games in these free emulators. Install the ones for the systems you play;
-Game Vault shows a **Get** button when one is missing.
+Game Vault finds the games on your phone, names them, fetches the box art and starts each one in the
+emulator that suits it. There are no folders to set up and no lists to edit. Plug in a USB drive and its games
+show up by themselves.
 
-| Systems | Emulator |
+From the maker of **[Game Vault for Xbox](https://github.com/skitzellez/xbox-game-vault)**.
+
+> [!WARNING]
+> **This is the first Android version (beta).** If something goes wrong, a short report helps a lot
+> (see [Reporting a problem](#-reporting-a-problem)).
+
+> [!IMPORTANT]
+> **No games or BIOS files are included, and none ever will be.** Use dumps of games you own.
+
+## ✨ Features
+
+- **Finds everything by itself:** the phone's storage, SD cards and USB drives (OTG), every folder, zipped or not.
+  A new search starts when you plug in a drive.
+- **Knows what each file is:** disc images are recognised by what is on the disc (GameCube or Wii, PlayStation 1,
+  2 or PSP, Saturn, Dreamcast, original Xbox), not just by their names. Track lists (`.cue`, `.gdi`) and disc playlists (`.m3u`) stay
+  one game.
+- **Real names and box art** for your whole library.
+- **The right emulator for every system**, with a **Get** button when one is missing and a one-line tip the first
+  time you use it.
+- **Made for touch and for controllers:** phones, tablets, Android TV, and controllers such as Backbone,
+  Razer Kishi or any Bluetooth pad.
+- **Recently played**, search, one shelf per system.
+- **Six languages:** English, Português (Brasil), Español, Français, Deutsch, Italiano.
+
+## 🕹️ Supported systems
+
+| Systems | Plays in |
 |---|---|
-| NES, SNES, Game Boy, GBA, DS, N64, Genesis, Master System, Game Gear, PC Engine, PlayStation, Saturn, Sega CD, Arcade, Atari and more | RetroArch |
-| GameCube, Wii | Dolphin |
-| PSP | PPSSPP |
-| PlayStation 2 | NetherSX2 or ARMSX2 |
-| Dreamcast | Flycast |
-| Nintendo 3DS | Azahar |
-| Original Xbox | X1 BOX |
+| NES, Super Nintendo, Game Boy, Game Boy Color, Game Boy Advance, Nintendo DS, Nintendo 64, Virtual Boy | RetroArch |
+| Genesis / Mega Drive, Master System, Game Gear, Sega 32X, Sega CD, Saturn | RetroArch |
+| PlayStation, PC Engine / TurboGrafx-16, Neo Geo Pocket, WonderSwan, arcade (FinalBurn Neo) | RetroArch |
+| Atari 2600, 5200, 7800, Lynx, Jaguar, ST, ColecoVision, Intellivision, Vectrex, MSX, Commodore 64, Amiga, ZX Spectrum, DOS and more | RetroArch |
+| GameCube, Wii | [Dolphin](https://dolphin-emu.org/download/) |
+| PSP | [PPSSPP](https://www.ppsspp.org/download/) |
+| PlayStation 2 | [NetherSX2](https://github.com/Trixarian/NetherSX2-patch/releases) or [ARMSX2](https://github.com/ARMSX2/ARMSX2/releases) |
+| Dreamcast, Atomiswave, NAOMI | [Flycast](https://github.com/flyinghead/flycast/releases) |
+| Nintendo 3DS | [Azahar](https://azahar-emu.org/pages/download/) |
+| Original Xbox | [X1 BOX](https://github.com/izzy2lost/xemu/releases) |
 
-The first time with an emulator, Game Vault tells you the one thing it needs, such as downloading a
-RetroArch core or letting Dolphin see your games folder.
+[RetroArch](https://www.retroarch.com/?page=platforms) plays most systems. When a standalone emulator for a system
+is installed, Game Vault uses it instead.
 
-## Your games stay yours
+## 📋 Requirements
 
-Game Vault only reads your games. Nothing is uploaded. It goes online only for names, box art and to
-check for a newer version. It ships no games and no BIOS files.
+- Android 8 or newer (phone, tablet or Android TV).
+- The emulators for the systems you play (all free; Game Vault links to each one).
+- For the big systems (GameCube, PlayStation 2, Xbox, 3DS): a recent, fast phone.
 
-## Licence
+## 🚀 Installation
 
-Copyright (c) 2026 Skitzelles. Free to use and share, not for sale. [PolyForm Noncommercial 1.0.0](LICENSE).
+1. On your phone, open the **[latest release](https://github.com/skitzellez/game-vault-android/releases/latest)** and
+   download **`GameVault-Android_x.y.z.apk`**.
+2. Open the downloaded file. The first time, Android asks to allow installing apps from your browser: allow it.
+3. Start **Game Vault** and tap **Allow access to my games**, then turn on the switch Android shows.
+4. Your games appear. Tap one, then **Play**. If its emulator is missing, tap **Get** first.
+
+**First time with an emulator:** the game's page says the one thing it needs, for example downloading a RetroArch
+core (*Main Menu › Online Updater › Core Downloader*) or adding your games folder in Dolphin, PPSSPP or NetherSX2.
+That is needed once per emulator.
+
+## 🎮 Controls
+
+| Touch | Controller | |
+|---|---|---|
+| Tap | **A** | Open a game, press Play |
+| Back gesture | **B** | Back |
+| ☰ (top right) | D-pad to ☰, **A** | Options |
+| 🔍 (top right) | | Search your games |
+
+## 🔄 Updating
+
+Game Vault tells you when a new version is out (a notice in the library, or Options › *Check for updates*).
+Download the new APK the same way; it installs over the old one and keeps your library.
+
+## 🐞 Reporting a problem
+
+Open **Options › Send a problem report** and pick how to send it (e-mail, Discord, any chat app). It contains
+Game Vault's short log: your phone model, Android version, and which game was started in which emulator. You see
+it before it goes anywhere. You can also ask on the **[Game Vault Discord](https://discord.gg/RmhhWgguvw)**.
+
+## 🔒 Privacy: what Game Vault sends
+
+Game Vault only **reads** your games; nothing is ever uploaded. It goes online for three things only:
+
+- box art from `thumbnails.libretro.com` and `art.gametdb.com` (the game's name or disc ID is in the address),
+- the newest version number from this project's update file on GitHub,
+- links you tap yourself (emulator downloads, Discord).
+
+No accounts, no ads, no tracking.
+
+## 🔗 Related projects
+
+- [Game Vault for Xbox](https://github.com/skitzellez/xbox-game-vault): the original, for Xbox Series X|S in Dev Mode.
+
+## ❤️ Support the project
+
+Game Vault is free and stays free. If you'd like to help keep the test devices and the development PC running,
+you can support it on **[Patreon](https://www.patreon.com/Skitzelles)**. ❤️
+
+## 🙏 Credits
+
+- Created by **[Skitzelles](https://github.com/skitzellez)**. The code was written with an AI assistant
+  (Claude) working with the project owner.
+- The emulators above and their authors: RetroArch and the libretro cores, Dolphin, PPSSPP, NetherSX2 / AetherSX2,
+  ARMSX2, Flycast, Azahar, X1 BOX.
+- How each emulator is handed a game follows the lists published by [ES-DE](https://es-de.org) (MIT).
+- Title data from GameTDB, box art from the libretro thumbnail server and GameTDB.
+
+## 📜 Licence
+
+Copyright (c) 2026 Skitzelles. Free to use and share, not for sale.
+[PolyForm Noncommercial 1.0.0](LICENSE). Game Vault for Android is distributed as an app; its source is not public.
