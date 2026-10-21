@@ -28,9 +28,9 @@
 </p>
 
 <p align="center">
-  <img src="art/screens/library.jpg" alt="The Game Vault library: a shelf of box art" width="30%">
+  <img src="art/screens/library.jpg" alt="The home page: CONTINUE, recent games, a shelf per console" width="30%">
   &nbsp;
-  <img src="art/screens/details.jpg" alt="A game's page: one tap installs its emulator" width="30%">
+  <img src="art/screens/details.jpg" alt="A game's page: the game being played, the box and PLAY" width="30%">
   &nbsp;
   <img src="art/screens/system.jpg" alt="One system's shelf" width="30%">
 </p>
